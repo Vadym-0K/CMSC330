@@ -1,0 +1,4 @@
+Scene Example (500, 500)
+
+ Text Color(0, 0, 0) at (200, 200) "Good Bye World";
+End.
