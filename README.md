@@ -1,18 +1,7 @@
-# Hi 👋 My name is Vadym Kharchenko
+# Advanced Programming Languages
+# CMSC 330
 
-### Computer Science Student | Aspiring Software Developer with a Focus on Back-End Development, Networking, and System Optimization
-
-An experienced developer with a strong focus on back-end software development. The skill set is versatile, enabling adaptability to diverse project demands and technologies. Committed to delivering high-quality, scalable solutions while continuously honing and expanding technical expertise.
-<br>
-<br>
-📆<b>10/04/2024</b> - I'm currently working on my portfolio projects<br>
-<br>
-🚀 Full-time Satellite Communication Operator & Maintainer (while pursuing B.S. in Computer Science)<br>
-💻 Full-Stack Development<br>
-🎮 Game Development Enthusiast<br>
-⚡ Fun fact: I play Dota 2, Factorio, and Chess<be>
-<br><br>Originally from Ukraine, currently residing in the States.
-<be><br>
-
+A comparative study of programming languages. The aim is to write safe and secure computer programs. Topics include the syntax and semantics of programming languages and run-time support required for various programming languages. Programming projects using selected languages are required.
+<br><br>
 > [!TIP]
-> You can find my resume and featured documents on my LinkedIn page
+> All the projects have README.md
