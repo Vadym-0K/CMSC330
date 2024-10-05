@@ -1,5 +1,5 @@
 <p align="center">
-<img align="center" alt="image" src="project-1.png"/>
+<img alt="image" src="project-1.png"/>
 </p>
     
 # Lexer and Parser
@@ -67,7 +67,18 @@ The program will parse and evaluate the expressions in the file and output the r
 
 ## Project Structure
 
-KharchenkoProject1/ │ ├── src/ # Source code files │ ├── main.cpp # Main file for parsing and evaluating │ ├── lexer.cpp # Lexer implementation │ ├── parser.cpp # Parser implementation │ └── ... ├── input.txt # Sample input file with expressions ├── README.md # This README file └── Makefile # Script to build the project
+```
+KharchenkoProject1/<br>
+│<br>
+├── src/                # Source code files<br>
+│   ├── main.cpp        # Main file for parsing and evaluating<br>
+│   ├── lexer.cpp       # Lexer implementation<br>
+│   ├── parser.cpp      # Parser implementation<br>
+│   └── ...
+├── input.txt           # Sample input file with expressions<br>
+├── README.md           # This README file<br>
+└── Makefile            # Script to build the project<br>
+```
 
 ## Contributing
 Contributions are welcome! Feel free to fork this repository, make your changes, and submit a pull request.
