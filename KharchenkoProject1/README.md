@@ -1,7 +1,3 @@
-<p align="center">
-<img alt="image" src="project-1.png"/>
-</p>
-    
 # Lexer and Parser
 
 ## Table of Contents
@@ -35,58 +31,64 @@ This project serves as a showcase of my ability to:
 ## Installation
 1. Clone this repository:
     ```bash
-    git clone https://github.com/yourusername/KharchenkoProject1.git
+    git clone https://github.com/Vadym-0K/CMSC330.git
     ```
 2. Navigate to the project directory:
     ```bash
     cd KharchenkoProject1
     ```
-3. Compile the C++ files:
-    ```bash
-    g++ main.cpp -o parser
+3. Compile the C++ files.
+
+4. Run the program through the scene file
     ```
-4. Run the program with an input file:
-    ```bash
-    ./parser input.txt
+     input.txt
     ```
 
 ## Usage
 To use this project:
 1. Create a text file containing mathematical expressions following the supported syntax, such as:
     ```
-    x = 10;
-    y = x + 5;
-    z = y * (3 - 1);
-    ```
-2. Run the program with your text file as an argument:
-    ```bash
-    ./parser expressions.txt
+    Scene Polygons (500, 500)
+     RightTriangle Color (255, 0, 0) at (50, 30) Height 100 Width 300;
+     Rectangle Color (0, 128, 255) at (100, 100) Height 200 Width 100;
+     Isosceles Color (255, 0, 0) at (120, 120) Height 100 Width 200;
+     Parallelogram Color (0, 0, 255) at (340, 50) (440, 120) Offset 30;
+     RegularPolygon Color(255, 0, 255) at (300, 300) Sides 6 Radius 80;
+     Text Color(0, 0, 0) at (400, 200) "Hello World";
+    End.
     ```
 
-The program will parse and evaluate the expressions in the file and output the results.
+The program will output the scene of graphical images based on the input file provided.
 
 ## Project Structure
 
 ```
 KharchenkoProject1/<br>
 │<br>
-├── src/                # Source code files<br>
-│   ├── main.cpp        # Main file for parsing and evaluating<br>
-│   ├── lexer.cpp       # Lexer implementation<br>
-│   ├── parser.cpp      # Parser implementation<br>
-│   └── ...
-├── input.txt           # Sample input file with expressions<br>
-├── README.md           # This README file<br>
-└── Makefile            # Script to build the project<br>
+├── src/                                  # Source code files<br>
+│   ├── Project1                          # Main file for parsing and evaluating<br>
+│   ├── Parser                            # Parser implementation<br>
+│         ├── Lexer                       # Lexer implementation<br>
+│         └── SyntaxError                 # Class that defines a syntax error
+├── Scene                                 # Class that defines a scene
+└──  Image                                # Abstract base class that defines all image objects
+        ├── Text                          # Class that defines a text that goes straight to the image.
+        └──  Polygon_                     # Abstract base class for all polygon classes
+            ├── HollowPolygon             # Class that defines all hollow polygons
+                    ├── Right Triangle    # Class that defines a hollow right triangle
+                    └── Rectangle         # Class that defines a hollow rectangle object
+            └── SolidPolygon              # Class that defines a hollow rectangle object
+                    ├── IsoscelesTriangle # Class that defines a filled isosceles trinagle.
+                    ├── Parallelogram     # Class that defines a filled parallelogram.
+                    └── RegularPolygon    # Class that defines a filled regular polygon.
+      
 ```
 
 ## Contributing
 Contributions are welcome! Feel free to fork this repository, make your changes, and submit a pull request.
 
-## License
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
 ## Contact
 If you have any questions or suggestions, feel free to contact me at:  
-**Your Name**  
+**Vadym Kharchenko**  
 Email: vadym.kharchenko@yahoo.com
