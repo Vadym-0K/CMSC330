@@ -1,3 +1,7 @@
+<p align="center">
+<img align="center" alt="image" src="project-1.png"/>
+</p>
+    
 # Lexer and Parser
 
 ## Table of Contents
@@ -11,7 +15,7 @@
 - [Contact](#contact)
 
 ## Overview
-**Kharchenko Project 1** is a C++ project designed to parse and evaluate mathematical expressions with varying complexity, including unary, binary, ternary, and quaternary expressions. The primary focus of this project was to strengthen my understanding of object-oriented programming, while diving deep into the implementation of parsers and lexers. 
+**Lexer and Parser** is a Java Swing application designed to provide a graphical user interface (GUI) for evaluating mathematical expressions. This project demonstrates my skills in object-oriented programming, with a focus on building interactive desktop applications using Java Swing. Additionally, it integrates custom parsers and lexers to handle expression inputs, enabling the program to process and evaluate both simple and complex mathematical expressions. The GUI allows users to input expressions, visualize the results, and receive feedback on any syntax errors.
 
 As part of my learning experience, I developed this project for CMSC 330 Advanced Programming Languages to demonstrate skills in managing complex grammar structures, file parsing, and expression evaluation in C++. 
 
