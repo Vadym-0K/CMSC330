@@ -1,3 +1,7 @@
+<p align="center">
+<img alt="image" src="project-1.png"/>
+</p>
+
 # Lexer and Parser
 
 ## Table of Contents
