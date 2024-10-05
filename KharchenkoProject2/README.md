@@ -116,4 +116,3 @@ Contributions are welcome! Feel free to fork this repository, make your changes,
 If you have any questions or suggestions, feel free to contact me at:  
 **Vadym Kharchenko**  
 Email: vadym.kharchenko@yahoo.com
-This version of the README.md highlights the logical conditions, project structure, and usage, making it ready to upload to GitHub! Let me know if you'd like any modifications.
